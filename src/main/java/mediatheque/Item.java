@@ -1,6 +1,7 @@
 package mediatheque;
 
 public abstract class Item {
+	public abstract void accept(MediathequeVisitor visitor);
 	private String title;
 
 	protected Item(String title) {
