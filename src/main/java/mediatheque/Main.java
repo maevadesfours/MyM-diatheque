@@ -9,8 +9,9 @@ public class Main {
         
         mediatheque.addItem( new Book("Marcel Pagnol", "La gloire de mon père"));
         mediatheque.addItem( new CD(15, "Star Académie"));
-        //mediatheque.printCatalog();
-        mediatheque.printOnlyBooks();
+        
+        mediatheque.printCatalog();
+        //mediatheque.printOnlyBooks();
         //mediatheque.printOnlyCDs();
         
     }
